@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barberia Black</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fuente elegante de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Encabezado / Navegación -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo1.jpeg" alt="Logo Barberia Black" class="logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#cortes">Cortes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Principal / Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="titulo-principal">BARBERIA <span>BLACK</span></h1>
+            <p class="subtitulo">Estilo, precisión y elegancia para tu corte</p>
+            <a href="https://wa.me/5493865241684?text=Hola!%20Quiero%20reservar%20un%20turno" target="_blank" class="btn-reserva">CONTACTAME</a>
+        </div>
+    </section>
+
+    <!-- Galería de Cortes -->
+    <section id="cortes" class="seccion-cortes">
+        <h2 class="titulo-seccion">NUESTROS <span>CORTES</span></h2>
+        <div class="linea-decorativa"></div>
+        
+        <div class="galeria-grid">
+            <div class="tarjeta-corte">
+                <div class="img-contenedor">
+                    <img src="corte1.jpeg" alt="Corte de pelo 1">
+                </div>
+                <div class="corte-info">
+                    <h3></h3>
+                </div>
+            </div>
+
+            <div class="tarjeta-corte">
+                <div class="img-contenedor">
+                    <img src="corte2.jpeg" alt="Corte de pelo 2">
+                </div>
+                <div class="corte-info">
+                    <h3></h3>
+                </div>
+            </div>
+            
+            <div class="tarjeta-corte">
+                <div class="img-contenedor">
+                    <img src="corte3.jpeg" alt="Corte de pelo 3">
+                </div>
+                <div class="corte-info">
+                    <h3></h3>
+                </div>
+            </div>
+
+            <div class="tarjeta-corte">
+                <div class="img-contenedor">
+                    <img src="corte4.jpeg" alt="Corte de pelo 4">
+                </div>
+                <div class="corte-info">
+                    <h3></h3>
+                </div>
+            </div>
+
+             <div class="tarjeta-corte">
+                <div class="img-contenedor">
+                    <img src="corte5.jpeg" alt="Corte de pelo 2">
+                </div>
+                <div class="corte-info">
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer id="contacto" class="footer">
+        <div class="footer-contenido">
+            <p class="frase-motivacional">"Un buen corte no solo cambia tu estilo, transforma tu actitud. Sé el rey de tu propia historia."</p>
+            
+            <div class="botones-redes">
+                <!-- Botón WhatsApp -->
+                <a href="https://wa.me/5493865241684?text=Hola!" target="_blank" class="btn-social whatsapp" aria-label="WhatsApp">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.964 9.964 0 001.333 4.993L2 22l5.233-1.237a9.935 9.935 0 004.779 1.217h.004c5.505 0 9.988-4.478 9.989-9.985 0-2.669-1.038-5.176-2.925-7.062A9.924 9.924 0 0012.012 2zm5.858 14.171c-.247.696-1.442 1.33-1.992 1.389-.522.057-1.196.25-3.957-.866-3.328-1.346-5.46-4.717-5.627-4.939-.166-.222-1.35-1.796-1.35-3.426 0-1.63.854-2.433 1.159-2.766.305-.333.665-.416.887-.416.222 0 .444.002.638.012.205.01.48-.078.75.57.277.666.942 2.302 1.025 2.468.083.166.139.36.028.582-.111.222-.167.36-.333.555-.166.194-.35.435-.5.585-.166.166-.339.346-.145.679.194.333.863 1.425 1.854 2.308 1.275 1.136 2.348 1.488 2.681 1.654.333.166.527.139.721-.083.194-.222.832-.971 1.054-1.304.222-.333.444-.277.749-.166.305.111 1.942.915 2.275 1.082.333.166.555.25.638.388.083.139.083.805-.164 1.501z"/>
+                    </svg>
+                    <span>WhatsApp</span>
+                </a>
+
+                <!-- Botón Instagram -->
+                <a href="https://www.instagram.com/barber_blackssj?cplk=Z284a2xuMTFpOTFz" target="_blank" class="btn-social instagram" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                    <span>Instagram</span>
+                </a>
+
+                <!-- Botón Ubicación -->
+                <a href="https://maps.app.goo.gl/frACG758DzsMKvrD6" target="_blank" class="btn-social ubicacion" aria-label="Ubicación">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                    <span>Ubicación</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; Barberia Black - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+</body>
+</html>
